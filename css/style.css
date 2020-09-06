@@ -1,0 +1,380 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-color: black !important;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+}
+
+.mylink
+{
+    color: #fff;
+}
+
+body{
+    background-color: #f5f5f5;
+    margin-right: 0px;
+}
+
+.head-bg
+{
+    background-image: url(../img/intro-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+.logo
+{
+    font-size: 2rem;
+}
+.mysize
+{
+    font-size: 3rem;
+
+}
+/* 
+
+start about section
+
+
+*/
+.listul
+{
+    list-style: none;
+}
+.mylist
+{
+    font-size: 1.3rem;
+}
+.title-s
+{
+    font-size: 1.6rem;
+}
+.pull-right
+{
+    float: right;
+}
+.myheight
+{
+    line-height: 1.8rem;
+    
+}
+.line
+{
+    content: "";
+    height: 3px;
+    margin-bottom: 0.3rem;
+    width: 20%;
+    background-color: #0078ff;
+}
+
+
+
+
+/*
+
+start service section 
+
+
+*/
+.mylinen
+{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #0078ff;
+}
+.myfont-p
+{
+    font-size: 1.25rem;
+    
+}
+.icon-contanier
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    box-shadow: 0 0 0 10px #0078ff;
+}
+.service-type
+{
+    box-shadow: 5px 5px 15px #888888;
+    border-radius: 10px;
+}
+.myicon-head
+{
+    font-size: 1.4rem;
+}
+.mydepartmenticon
+{
+    font-size: 3rem;
+    padding: 20px;
+    color: black;
+
+}
+.icon-container
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 1.5;
+    border: 8px solid #0078ff;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.icon-container:hover
+{
+    background-color: #0078ff;
+    border-color: #c9c1c1;
+}
+.icon-container:hover .mydepartmenticon
+{
+    color: #fff;
+} 
+
+
+
+
+/*
+
+start rate section 
+
+
+*/
+
+.section-rate
+{
+    background-image: url(../img/counters-bg.jpg);
+    height:auto;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.containerrate
+{
+    background-color:#0078ff;
+    opacity: 0.7;
+    text-align: center;
+    
+}
+.ratei
+{
+    font-size: 3.5rem;
+    padding: 10px;
+}
+.newborderco
+{
+    border-color: #fff;
+}
+
+
+
+   /* 
+   
+   
+   start portofolio section 
+   
+   
+   */
+.mylink
+{
+    overflow: hidden;
+
+}
+.imghover
+{
+    transition: 1s ease-in-out;
+    
+}
+.mylink:hover .imghover
+{
+   transform: scale(1.2,1.2);
+}
+.mytext
+{
+    font-size: 1.2rem;
+}
+.iicon
+{
+    font-size: 2rem;
+    padding-bottom: 5rem;
+
+}
+.myplus
+{
+    height: 50px;
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50px;
+    
+
+}
+
+   /*
+   
+   start slidecontent section
+   
+   
+   */
+
+
+
+.slidcontent
+{
+    background-image: url(../img/overlay-bg.jpg);
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.myimgbor
+{
+    border-radius: 50%;
+}
+.myslideheight
+{
+    line-height: 2rem;
+}
+.myquote
+{
+    font-size: 3rem;
+    color:#0078ff ;
+}
+.myconquote
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: auto;
+
+}
+
+
+/*
+
+start plog section 
+
+
+*/
+
+.myimgcircle
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.mytravel
+{
+    width: 100px;
+    position: absolute;
+    bottom: 90%;
+    left: 35%;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem;
+    background-color:#0078ff;
+
+    align-items: center;
+
+}
+.linkhov:hover 
+{
+   color: #0078ff;
+}
+.linkhov
+{
+    color:#000;
+}
+
+
+
+
+.mycontactback
+{
+    margin: 100px  0 0;
+    height: auto;
+    background-image: url(../img/overlay-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contactcolor
+{
+    background-color: #0078ff;
+    opacity: 0.7;
+    height: auto;
+}
+
+.myjumbo
+{
+    height: auto;
+    
+
+}
+.mytt
+{
+    color: black;
+}
+.contact
+{
+    color:#0078ff ;
+}
+
+.mysocial
+{
+    font-size: 2.5rem;
+    color: #0078ff ;
+}
+.icon-containerr
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid #0078ff;
+    margin-right: 0.8rem;   
+}
+ 
+
+.myaboumenticon
+{
+    font-size: 1.5rem;
+    padding: 20px;
+    color: black;
+
+}
+
+.icon-containerr:hover
+{
+    background-color: #0078ff;
+    border-color: #c9c1c1;
+}
+.icon-containerr:hover .myaboumenticon
+{
+    color: #fff;
+} 
+.myheadingsize
+{
+    color: #1e1e1e;
+}
+
+
+
+
+
+
+
+
+
